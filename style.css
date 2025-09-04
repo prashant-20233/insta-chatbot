@@ -1,0 +1,45 @@
+body {
+  background: #f9f2ff;
+  font-family: 'Comic Sans MS', cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #aaa;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #7b2cbf;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #5a189a;
+}
+
+#messageOutput {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #5a189a;
+}
